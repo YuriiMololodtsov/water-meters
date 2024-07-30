@@ -24,7 +24,8 @@
   "scripts": {
     "start": "grunt && react-scripts start",
     "build": "grunt && react-scripts build",
-    "prettier": "grunt prettier"
+    "prettier": "grunt prettier",
+    "deploy": "grunt deploy"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +47,7 @@
   },
   "devDependencies": {
     "grunt": "^1.6.1",
-    "grunt-prettier": "^2.2.0"
+    "grunt-prettier": "^2.2.0",
+    "grunt-gh-pages": "^3.2.0"
   }
 }
